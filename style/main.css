@@ -51,4 +51,14 @@ form {
     background-color: #304d6dff;
     color: #63adf2ff; }
 
+footer {
+  background-color: black;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  footer .footer-info {
+    color: white;
+    text-align: center; }
+
 /*# sourceMappingURL=main.css.map */
