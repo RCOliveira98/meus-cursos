@@ -32,4 +32,12 @@ body {
   padding: 2px;
   border: solid; }
 
+.advantages-container {
+  display: flex;
+  justify-content: center; }
+  .advantages-container .advantage {
+    width: 30vw;
+    text-align: center;
+    padding: 0 15px 15px 15px; }
+
 /*# sourceMappingURL=main.css.map */
