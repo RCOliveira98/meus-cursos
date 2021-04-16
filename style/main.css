@@ -40,4 +40,15 @@ body {
     text-align: center;
     padding: 0 15px 15px 15px; }
 
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20vw; }
+  form * {
+    margin: 5px 0;
+    border-radius: 5px; }
+  form button {
+    background-color: #304d6dff;
+    color: #63adf2ff; }
+
 /*# sourceMappingURL=main.css.map */
