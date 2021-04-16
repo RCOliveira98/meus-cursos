@@ -1,0 +1,35 @@
+body {
+  font-family: 'Courier New', Courier, monospace; }
+
+.txt-roxo {
+  color: blueviolet; }
+
+.txt-center {
+  text-align: center; }
+
+.hero {
+  height: 100vh;
+  background-color: #545e75ff;
+  display: flex;
+  align-items: center; }
+
+.hero-title {
+  background-color: #a7ccedff;
+  text-align: center;
+  padding: 5% 0;
+  width: 100vw; }
+
+.cards {
+  background-color: #82a0bcff;
+  display: flex;
+  justify-content: space-evenly; }
+
+.card {
+  background-color: limegreen;
+  width: 30vw;
+  height: 40vh;
+  margin: 1px;
+  padding: 2px;
+  border: solid; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,13 @@
+.hero {
+    height: 100vh;
+    background-color: $secondary;
+    display: flex;
+    align-items: center;
+}
+
+.hero-title {
+    background-color: $baby-blue-eyes;
+    text-align: center;
+    padding: 5% 0;
+    width: 100vw;
+}

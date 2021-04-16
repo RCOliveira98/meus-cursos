@@ -1,0 +1,14 @@
+.cards {
+    background-color: $air-superiority-blue;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    background-color: limegreen;
+    width: 30vw;
+    height: 40vh;
+    margin: 1px;
+    padding: 2px;
+    border: solid;
+}
