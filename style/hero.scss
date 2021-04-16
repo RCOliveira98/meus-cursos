@@ -3,10 +3,14 @@
     background-color: $secondary;
     display: flex;
     align-items: center;
+    background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url('../image/fundo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .hero-title {
-    background-color: $baby-blue-eyes;
+    background-color: adjust-color($color: $baby-blue-eyes, $alpha: -0.4);
     text-align: center;
     padding: 5% 0;
     width: 100vw;
