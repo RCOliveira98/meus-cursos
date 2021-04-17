@@ -1,13 +1,25 @@
 .cards {
-    background-color: $air-superiority-blue;
     display: flex;
     justify-content: space-evenly;
-}
 
-.card {
-    width: 30vw;
-    height: 40vh;
-    margin: 1px;
-    padding: 2px;
-    border: solid;
+    .card {
+        width: 30vw;
+        height: 40vh;
+        position: relative;
+        align-items: center;
+
+        .card-header {
+            background-color: cadetblue;
+            padding: 1px;
+            width: 100%;
+            color: white;
+            text-align: center;
+        }
+
+        .card-footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    }
 }

@@ -10,6 +10,11 @@ body {
   text-align: center;
 }
 
+.img-size-max {
+  max-width: 30vw;
+  max-height: 30vh;
+}
+
 .hero {
   height: 100vh;
   background-color: #545e75ff;
@@ -29,17 +34,26 @@ body {
 }
 
 .cards {
-  background-color: #82a0bcff;
   display: flex;
   justify-content: space-evenly;
 }
-
-.card {
+.cards .card {
   width: 30vw;
   height: 40vh;
-  margin: 1px;
-  padding: 2px;
-  border: solid;
+  position: relative;
+  align-items: center;
+}
+.cards .card .card-header {
+  background-color: cadetblue;
+  padding: 1px;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+.cards .card .card-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .advantages-container {
